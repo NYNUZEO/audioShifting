@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
   // sonicStream tempoStream_;
   // tempoStream_ = sonicCreateStream(8000, 1);
 
-  FILE *file1 = fopen("pcm/xinwenlianbo.pcm", "rb");
+  FILE *file1 = fopen("xinwenlianbo.pcm", "rb");
   FILE *out_file = fopen("outSped.pcm", "wb");
 
   int processFrameCount = 3000;
